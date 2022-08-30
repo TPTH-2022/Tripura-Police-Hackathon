@@ -440,7 +440,7 @@ fieldset[disabled] .btn-theme {
   list-style: none;
 }
 
-/* Nav */
+/* Nav */s
 .header .nav-item {
   position: relative;
   display: block;
@@ -453,7 +453,7 @@ fieldset[disabled] .btn-theme {
 .header .nav-item-child {
   position: relative;
   display: block;
-  font-size: 13px;
+  font-size: 36px;
   font-weight: 600;
   font-family: Hind, sans-serif;
   text-transform: uppercase;

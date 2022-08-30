@@ -1,0 +1,112 @@
+
+        /* Whole html box designing */
+        
+         
+        /* Box sizing depending on parent */
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .new{
+        padding: 10%;
+    }
+        
+    /* Styling column */
+    .new_tag_column {
+        float: left;
+        width: 33%;
+        margin-bottom: 16px;
+        padding: 5px 10px;
+        align-self: center;
+    }
+        
+
+    #tag1{
+        left:50%;
+    }
+
+    #centerpeople{
+        margin-left:33%;
+    }
+
+    /* Column width change depends on screen size */
+    @media screen and (max-width: 670px) {
+        .new_tag_column {
+            width: 100%;
+            text-align: none;
+        }
+
+        #centerpeople{
+            margin-left: 0px;
+        }
+    }
+        
+    /* Card designing */
+    .new_tag_card {
+        background-color: transparent;
+        border: 1px solid black;
+    }
+        
+    .new_tag_container {
+        padding: 0 16px;
+    }
+        
+    /* Icon styling */
+    .fa {
+        margin: 10px;
+        font-size:68px;
+
+    }
+        
+    .fa:hover {
+        transform: rotateY(180deg);
+        transition: transform 0.8s;
+    }
+        
+    .new_tag_container::after,
+    .new_tag_row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+        
+    /* Button designing */
+    .new_tag_button {
+        border: none;
+        padding: 8px;
+        color: white;
+        background-color: #449D44;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+        
+    /* Hover effect on button */
+    .new_tag_button:hover {
+        background-color: green;
+    }
+    
+    /* Margining first member of team */
+    #new_tag_gfg {
+        float:none;
+        margin:auto;
+    }
+
+    /* Image ptions */
+
+    .peopleimg{
+        margin:10px;
+        border-radius: 50%;
+        max-height: 200px;
+    }
+
+    #peopleheader{
+        color:black;
+        text-shadow: 2px 2px 4px gray;
+        letter-spacing: -1px;
+    }
+
+    
