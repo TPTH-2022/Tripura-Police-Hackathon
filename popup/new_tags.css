@@ -32,7 +32,7 @@
     }
 
     /* Column width change depends on screen size */
-    @media screen and (max-width: 670px) {
+    @media screen and (max-width: 1000px) {
         .new_tag_column {
             width: 100%;
             text-align: none;
@@ -47,6 +47,7 @@
     .new_tag_card {
         background-color: transparent;
         border: 1px solid black;
+        height:320px;
     }
         
     .new_tag_container {
@@ -109,4 +110,15 @@
         letter-spacing: -1px;
     }
 
-    
+    #oa{
+        color:Red;
+    }
+
+    /* Horizontal Line */
+    .devicer {
+        width: 20em;
+        display: block;
+        height: 3px;
+        background-color: #4b4b4d;
+        margin: 10px auto 50px;
+      }
