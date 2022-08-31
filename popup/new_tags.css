@@ -45,8 +45,7 @@
         
     /* Card designing */
     .new_tag_card {
-        background-color: transparent;
-        border: 1px solid black;
+        background-color: #EEEE ;
         height:320px;
     }
         
@@ -106,12 +105,11 @@
 
     #peopleheader{
         color:black;
-        text-shadow: 2px 2px 4px gray;
         letter-spacing: -1px;
     }
 
-    #oa{
-        color:Red;
+    .oa{
+        color:#D61C4E;
     }
 
     /* Horizontal Line */
@@ -122,3 +120,26 @@
         background-color: #4b4b4d;
         margin: 10px auto 50px;
       }
+
+    .newbanner{
+        position: absolute;
+        margin-left: 33%;
+        margin-top: 10%;
+    }
+
+    .newbannertext{
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 1.1;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+    .newbannerdata{
+        margin-top: 5%;
+        color: white;
+        text-transform: none;
+        text-align: right;
+    }
